@@ -1,39 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    border: none;
     font-family: 'Poppins', sans-serif;
-    
 }
 
 body{
-    font-family: 'Poppins';
-    font-style: normal;
-    width: 100vh;
+    width: 100vw;
     height: 100vh;
-}
-
-.container{
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: 100vh;
 }
-.icon-title{
-    width: 78px;
-    height: 78px;
 
+.header{
+    width: 1224px;
+    height: 80px;
+    background-color: green;
+}
+
+.flex-box{
+    display: flex;
+    width: 1016px;
+    height: 609px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    margin-top: 60px;
+}
+
+
+
+.logo{
+    height: 78px;
+    width: 78px;
+    margin-bottom: 63px;
 }
 
 h3{
     font-weight: 600;
     font-size: 32px;
     line-height: 110%;
-    letter-spacing: -1px;
     color: #000000;
+    margin-bottom: 32px;
+}
 
+.input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
 }
 
 label{
@@ -46,52 +67,52 @@ label{
 }
 
 input{
+    padding-left: 10px;
+    gap: 10px;
     width: 287.75px;
     height: 48px;
-    left: 0.88px;
-    top: 21.5px;
-
     background: rgba(137, 196, 0, 0.1);
-    /* Color/Secondary Color */
-
     border: 1px solid #89C400;
     border-radius: 53px;
+    color: #89C400 ;
 }
 
-.entrar{
-    padding: 16px 34px;
-
+.button-entrar{
     width: 113px;
     height: 50px;
-
-    /* Color/Secondary Color */
-
     background: #89C400;
     border-radius: 30px;
-    border: none;
+    color: #FFF;
     font-weight: 600;
     font-size: 16px;
     line-height: 112%;
-    /* identical to box height, or 18px */
-
-    letter-spacing: -1px;
-
-    /* Escala/Color 600 */
-
-    color: #F1F0F5;
 }
 
-.cadastro{
+.button-cadastro{
+    width: 113px;
+    height: 50px;
+    background: transparent;
+    border-radius: 30px;
     font-weight: 400;
     font-size: 16px;
     line-height: 112%;
-    /* identical to box height, or 18px */
-
     letter-spacing: -1px;
-
-    /* Escala/Color 400 */
-
     color: #7A7786;
-    border: none;
-    background: none;
+
+}
+
+form{
+    width: 520px;
+    height: 609px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-image{
+    width: 496px;
+    height: 609px;
+    background: #E8E8E8;
+
+    border-radius: 0px 14px 14px 0px;
 }
