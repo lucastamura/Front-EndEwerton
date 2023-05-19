@@ -1,0 +1,50 @@
+/* ---- Estilização do Cabeçalho ------- */
+
+header{
+    width: 1224px;
+    height: 80px !important;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #C6C5CE;
+}
+
+.image-title{
+    width: 50px;
+}
+
+.list-options{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    height: 100%;
+}
+
+.opotin-default{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 112%;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #5F5C6B;
+}
+
+.opotin-default:hover{
+    border-bottom: 2px solid#38B6FF;
+}
+
+.button-login{
+    background: #38B6FF;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 112%;
+    letter-spacing: -1px;
+    color: #F1F0F5;
+    padding: 8px 16px;
+    transition: 0.3s;
+}
+
+.button-login:hover{
+    background: #F1F0F5;
+    color: #38B6FF;
+}

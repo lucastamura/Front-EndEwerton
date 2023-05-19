@@ -53,6 +53,10 @@ input::placeholder{
     color: #C6C5CE;
 }
 
+header{
+    height: 80px;
+}
+
 .w-288{
     width: 288px;
 }
@@ -126,7 +130,7 @@ section{
     box-shadow: 11px 1px 24px rgba(0, 0, 0, 0.1);
     border-radius: 24px;
     padding: 73px 52px;
-    margin-top: 100px;
+    margin-top: 40px;
     margin-bottom: 128px;
 }
 
