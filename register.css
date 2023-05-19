@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    width: 1224px;
+    height: 80px;
+    background-color: green;
+}
+
+h3{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #4E4B59;
+}
+p, label{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4E4B59;
+}
+
+input{
+    padding: 0 10px;
+    height: 32px;
+    border: 1.5px solid #5F5C6B;
+    border-radius: 9px;
+}
+
+input::placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #C6C5CE;
+}
+
+.w-288{
+    width: 288px;
+}
+
+.w-392{
+    width: 392px;
+}
+
+.w-601{
+    width: 601px;
+}
+.w-704{
+    width: 704px;
+}
+.w-704-h{
+    width: 704px;
+    height: 99px;
+}
+
+.row-form{
+    display: flex;
+    gap: 23px;
+    align-items: center;
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.button-cadastrar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 70px;
+    background: #89C400;
+    border-radius: 68px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    color: #F1F0F5;
+    transition: 0.3s;
+}
+.button-cadastrar:hover{
+    background: transparent;
+    color: #89C400;
+    border: 3px solid #89C400;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario{
+    background: #FFFFFF;
+    box-shadow: 11px 1px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+    padding: 73px 52px;
+    margin-top: 100px;
+    margin-bottom: 128px;
+}
+
+#contatos{
+    margin-bottom: 73px;
+}
+
+#informacoes-empresa{
+    margin-bottom: 73px;
+}
+
+#endereco{
+    margin-bottom: 40px;
+}
+
+.title-section{
+    margin-bottom: 73px;
+}
+
+.title-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 91px;
+}
+
+.nao-cep{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: #4E4B59;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.opcao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.checks{
+    display: flex;
+    gap: 24px;
+}
