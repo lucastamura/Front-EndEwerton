@@ -4,6 +4,8 @@
 @import url('./CSS/login.css');
 @import url('./CSS/home.css');
 @import url('./CSS/register.css');
+@import url('./CSS/servicos.css');
+@import url('./CSS/sobre.css');
 
 *{
     padding: 0;

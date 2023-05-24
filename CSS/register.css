@@ -20,11 +20,7 @@ body{
     align-items: center;
 }
 
-.header{
-    width: 1224px;
-    height: 80px;
-    background-color: green;
-}
+
 
 h3{
     font-weight: 600;
@@ -53,9 +49,6 @@ input::placeholder{
     color: #C6C5CE;
 }
 
-header{
-    height: 80px;
-}
 
 .w-288{
     width: 288px;

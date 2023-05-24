@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Poppins';
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    width: 1324px;  
+     
+}
+
+#inicio{
+    display: flex;
+    gap: 128px;
+    align-items: center;
+    margin-bottom: 200px;
+    margin-top: 110px;
+    width: 100%;
+    flex-direction: row;
+}
+#meio {
+    display: flex;
+    gap: 128px;
+    align-items: center;
+    margin-bottom: 200px;
+    margin-top: 110px;
+    flex-direction: row;
+
+}
+
+
+.titulo {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 110%;
+/* identical to box height, or 62px */
+
+    letter-spacing: -1px;
+
+/* Escala/Color 100 */
+
+    color: #000000;
+    text-align: center;
+
+}
+.ortografia {
+
+
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 162.5%;
+
+    color: #4E4B59;
+
+
+}
+
+.verde{
+    color: #89C400;
+    font-weight: 600;
+}
+
+
+.azul{
+    color: #38B6FF;
+    font-weight: 600;
+}
+.fale {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120.5%;
+    color: #5F5C6B;
+}
+.comunicação {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120.5%;
+    color: #5F5C6B;
+
+}
+.suporte {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120.5%;
+    color: #5F5C6B;
+
+}
+.email {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120.5%;
+    color: #5F5C6B;
+}
+.telefone {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120.5%;
+    color: #5F5C6B;
+}
+.vendas {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120.5%;
+    color: #5F5C6B;
+
+}
+.duvidas {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120.5%;
+    color: #5F5C6B;
+}
+
+.icon-background {
+    width: 496px;
+    height: 514.73px;
+    left: 144px;
+    top: 214px;
+}
+.icon-background .left {
+    width: 496px;
+    height: 449px;
+    left: 872px;
+    top: 1008px;
+    filter: drop-shadow(3px 5px 9px rgba(0, 0, 0, 0.63));
+}
+
+
+/* ------ Estilzação do rodapé---- */
+
+#fim {
+    display: flex;
+    gap:56px ;
+    margin-bottom: 70px;
+    flex-direction: row;
+}
+
+.contatos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+}
+
+.title-footer{
+    display: flex;
+    gap: 8px;
+}
+.row-footer{
+    display: flex;
+    gap: 8px;
+}
+
+
